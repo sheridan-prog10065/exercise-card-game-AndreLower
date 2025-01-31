@@ -30,5 +30,63 @@ namespace CardGameInteractive
         /// Last card played by the house
         /// </summary>
         private Card _houseCard;
+        
+        /// <summary>
+        /// CardGame Class Constructor
+        /// </summary>
+        //Here, The Initial Values are filled
+        public CardGame()
+        {
+            _cardDeck = new CardDeck();
+            _score = new Score();
+            _playerCard = null;
+            _houseCard = null;
+        }
+
+        public void Play()
+        {
+            //todo: implement play
+        }
+        /// <summary>
+        /// Play a round of the game
+        /// </summary>
+        /// <returns>
+        ///     +1 USer Won Round
+        ///     0 Tie
+        ///     -1 House Won the Round
+        /// </returns>
+        private sbyte PlayRound()
+        {
+            //todo: Implement play round
+            return 0;
+        }
+
+        private void DealCards()
+        {
+
+        }
+
+        private void SwitchCards()
+        {
+
+        }
+
+        private byte DetermineCardRank()
+        {
+            //TODO: Implement
+            return 0;
+        }
+
+        private void ShowRoundResult()
+        {
+
+        }
+
+        private void ShowGameOver()
+        {
+
+        }
+
+
     }
 }

@@ -11,6 +11,34 @@ namespace CardGameInteractive
     /// </summary>
     public class CardDeck
     {
+        /// <summary>
+        /// list of all cars in the deck
+        /// </summary>
         private List<Card> _cardList;
+
+        /// <summary>
+        /// Initialize the deck
+        /// </summary>
+        public CardDeck()
+        {
+            //TODO
+
+        }
+
+        private void CreateCards()
+        {
+
+        }
+
+        public void ShuffleCards()
+        {
+
+        }
+
+        public void PrintCards()
+        {
+
+        }
     }
+
 }

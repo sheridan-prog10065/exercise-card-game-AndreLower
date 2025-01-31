@@ -20,5 +20,11 @@ namespace CardGameInteractive
         /// suit of the card
         /// </summary>
         private CardSuit _suit;
+
+        public Card(byte value, CardSuit suit)
+        {
+            _value = value;
+            _suit = suit;
+        }
     }
 }
